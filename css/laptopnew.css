@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body h1{
+    text-align:center;
+    background-color:red;
+    color: white;
+    width:98%;
+    margin: .5em auto;
+}
+.pagecontainer{
+    height: 100vh;
+    border: .25em blue solid;
+    padding:.25em;
+    width: 98%;
+    background-color: aqua;
+}
+.pagecontainer .container{
+    border: .25em red double;
+    margin: .25em;
+    overflow-y: hidden;
+}
+.pagecontainer .container .productimage{
+    border: .2em white solid;
+    width: 20%;
+    height: 25vh;
+    float: left;
+}
+.pagecontainer .container .productimage img{
+    border: .2em solid;
+    margin: .5em;  
+    border-color: red green yellow purple;
+    width: 90%;
+    height: 90%;
+}
+.pagecontainer .container .description{
+    width:78%;
+    float:right;
+}

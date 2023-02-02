@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pagecontainer{
+    border: .5em solid blue;
+    padding: .5em;
+    background-color:gray;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagecontainer .container .col50{
+    border: .25em double red;
+    width: 49%;
+    float: left;
+}
+.pagecontainer h1{
+    text-align: center;
+    width: fit-content;
+    background-color: brown;
+}
+.pagecontainer .container{
+    border: .25em double red;
+    background-color:dodgerblue;
+}
+.pagecontainer .container img{
+    display: inline-block;
+    width: 10vw;
+}
+.pagecontainer .container p{
+    width:85vw;
+    display: inline-block;
+}
+
+@media screen and(max-width:480px) and (min-width:320px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .pagecontainer{
+        border: .5em solid blue;
+        padding: .5em;
+        background-color:red;
+        color:white;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pagecontainer .container .col50{
+        border: .25em double red;
+        width: 99%;
+        float: left;
+        margin: .2em auto;
+    }
+    .pagecontainer h1{
+        text-align: center;
+        width: fit-content;
+        background-color: brown;
+    }
+    .pagecontainer .container{
+        border: .25em double red;
+        background-color:dodgerblue;
+    }
+    .pagecontainer .container img{
+        display: inline-block;
+        width: 45%;
+        justify-self: center;
+    }
+    .pagecontainer .container p{
+        width:50%;
+        display: inline-block;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .pagecontainer{
+        border: .5em solid green;
+        padding: .5em;
+        background-color:blue;
+        color:white;
+        font-weight:normal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pagecontainer .container .col50{
+        border: .25em double red;
+        width: 48%;
+        float: left;
+    }
+    .pagecontainer h1{
+        text-align: center;
+        width: fit-content;
+        background-color: brown;
+    }
+    .pagecontainer .container{
+        border: .25em double red;
+        background-color:dodgerblue;
+    }
+    .pagecontainer .container img{  
+        display: inline-block;
+        width: 30%;
+    }
+    .pagecontainer .container p{
+        width:65%;
+        display: inline-block;
+    }
+}

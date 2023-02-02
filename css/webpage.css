@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 98%;
+    margin: 0 auto;
+    background-color: aqua;
+    border: .5em solid blue;
+}
+.pagecontainer{
+    width: 95%;
+    margin: .5rem auto;
+    border: .5em double blue;
+}
+.col50{
+    width:48%;
+    border: .5em solid red;
+    float: left;
+    margin: .25em;
+}
+.col100{
+    width: 98%;
+    border: .5em solid red;
+    margin: 0 auto;
+    overflow-y: auto;
+}

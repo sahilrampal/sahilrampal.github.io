@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body h1{
+    text-align:center;
+    background-color:red;
+    color: white;
+    width:98%;
+    margin: .5em auto;
+}
+.pagecontainer{
+    height: 100vh;
+    border: .25em blue solid;
+    padding:.25em;
+    width: 98%;
+    background-color:chartreuse;
+}
+.pagecontainer .container{
+    border: .25em red double;
+    margin: .25em;
+    height: 50%;
+    overflow-y: auto;
+}
+.pagecontainer .container .productimage{
+    width: 95%;
+    float: left;
+    border: .25em dotted red;
+    margin:0 auto;
+}
+.pagecontainer .container .productimage img{
+    border-color: red green yellow orange;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.pagecontainer .container .decription{
+    width: 95%;
+    margin:0 auto;
+    float:left;
+}
