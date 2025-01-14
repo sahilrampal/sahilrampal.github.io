@@ -15,28 +15,37 @@
         margin: 0 auto;
         padding: 20px;
     }
-    @media screen and (min-width: 320px) {
+    @media screen and (max-width: 1024px) {
         body{
-            background-color: aqua;
+            background-color:lightgreen;
         }
         div {
-            width: 90%;
+            width: 50%;
         }
     }
-    @media screen and (min-width: 480px) {
-        body{
-            background-color:mediumvioletred;
-        }
-        div {
-            width: 80%;
-        }
-    }
-    @media screen and (min-width: 768px) {
+
+    @media screen and (max-width: 768px) {
         body{
             background-color:blue;
         }
         div {
+            width: 60%;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        body{
+            background-color:mediumvioletred;
+        }
+        div {
             width: 70%;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        body{
+            background-color: aqua;
+        }
+        div {
+            width: 80%;
         }
     }
 </style>
